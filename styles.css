@@ -53,6 +53,9 @@ font-size: 20px;
 padding-top: 0;
 margin-top: 10px;
 }
+nav button:hover {
+    color:#e74c3c;
+}
 nav div{
     margin-left: 20px; 
     margin-right: 20px;
@@ -91,10 +94,25 @@ font-size: 23px;
 }
 .connect-button{
     position: absolute;
-bottom: 250px;
+bottom: 180px;
 left: 200px;
 }
-
+.connect-button button{
+    background-color: transparent;
+    border: none;
+    background-color: rgb(255, 0,250);
+    background-color: rgb(201, 176, 201);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.connect-button button:hover {
+    background-color: #e74c3c;
+    color: #ffffff; 
+}
 .projects{
     background-color: #5d646b;
     padding: 4rem;
