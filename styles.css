@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif
+}
+
+.container{
+height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+}
+.headings{
+    /* display: flex; */
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem ;
+}
+
+nav{display: flex;
+position: absolute;
+right: 100px;
+top: 0px;
+}
+.home-page {
+    display: flex;
+    color: rgba(236, 236, 236, 0.822);
+}
+#occupation span{  color: rgba(236, 236, 236, 0.822);}
+#occupation{
+    color: white;
+}
+.logo{
+    color: white;
+    /* font-weight: 700; */
+    font-size: 40px;
+}
+.logo span{
+    color: red;
+}
+
+.projects{
+    background-color: #5d646b;
+    padding: 4rem;
+}
+.media-icons{
+    display: flex;
+    mar
+}
+.contact-me{
+    background-color: blanchedalmond;
+    color: #343a40;
+}
+header {
+    /* background-color: #333; */
+    /* color: #fff; */
+    /* padding: 20px 0; */
+}
+
+.first-row, .second-row {
+    display: flex;
+    /* justify-content:center; */
+    /* align-items: center; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
+}
+.first-row img, .second-row img{
+    width: 550px;
+    height: 400px;
+    /* margin: 4rem; */
+}
+
+nav .logo {
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+}
+
+nav a {
+    /* color: #fff; */
+    /* text-decoration: none; */
+}
+
+#hero {
+    /* text-align: center; */
+    /* padding: 100px 0; */
+}
+
+#hero h1 {
+    /* font-size: 36px; */
+}
+
+#hero p {
+    /* color: #777; */
+}
+
+.cta-button {
+    /* display: inline-block; */
+    /* padding: 10px 20px; */
+    /* background-color: #333; */
+    /* color: #fff; */
+    /* text-decoration: none; */
+    /* border-radius: 5px; */
+    /* margin-top: 20px; */
+}
+
+#about, #portfolio, #contact {
+    /* padding: 40px 0; */
+    /* text-align: center; */
+}
+
+#portfolio h2 {
+    /* margin-top: 40px; */
+}
+
+footer {
+    /* background-color: #333; */
+    /* color: #fff; */
+    /* text-align: center; */
+    /* padding: 10px 0; */
+}
