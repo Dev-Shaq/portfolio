@@ -15,25 +15,43 @@ height: 100%;
     align-items: center;
     background-color: #343a40;
 }
-.headings{
+
+.home-page {
+    display: flex;
+    color: rgba(236, 236, 236, 0.822);
+    height: 100vh;
+    width: 100vw;
+}
+#occupation span{  color: rgba(236, 236, 236, 0.822);}
+#occupation{
+    color: white;
+}.headings{
     /* display: flex; */
     padding-top: 3rem;
     margin-bottom: 3rem;
     padding-left: 2rem ;
 }
 
-nav{display: flex;
+nav {display: flex;
 position: absolute;
-right: 100px;
+right:300px;
 top: 0px;
+color:white;
+background-color: transparent;
+border: 1rem solid red;
+border: none;
+margin-top: 0rem;
 }
-.home-page {
-    display: flex;
-    color: rgba(236, 236, 236, 0.822);
-}
-#occupation span{  color: rgba(236, 236, 236, 0.822);}
-#occupation{
+nav button{
     color: white;
+    background-color: transparent;
+border: none;
+margin-top: 1rem;
+font-size: 20px;
+}
+nav div{
+    margin: 20px; 
+    /* right: -10px; */
 }
 .logo{
     color: white;
