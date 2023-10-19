@@ -11,8 +11,6 @@ body {
 .container{
 height: 100%;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     background-color: #293136;
 }
 /* Designs for homepage */
