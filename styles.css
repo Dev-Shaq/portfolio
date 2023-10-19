@@ -109,6 +109,9 @@ font-size: 23px;
         top: 200px;
        right:350px ;
 }
+#hero img :hover{
+border: 10px #e74c3c solid;
+}
 #media-icons{
     position: absolute;
     right: 0;
