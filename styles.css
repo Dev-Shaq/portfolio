@@ -14,7 +14,7 @@ height: 100%;
     background-color: #293136;
     margin: 0 auto;
 }
-/* Designs for homepage */
+/* Styling for homepage */
 .home-page {
     display: flex;
     color: rgba(236, 236, 236, 0.822);
@@ -163,15 +163,19 @@ left: 200px;
 
 
 
-/* Designs for project page */
+/* Styling for project page */
 .projects{
     background-color: #5d646b;
+    height:100vh;
+   width: 100vw;
     /* padding: 4rem; */
 }
 .projects h1{
-   color: rgb(24, 17, 17);
-   padding-top: 2rem;
-   margin-left:20rem ;
+   color: rgb(247, 247, 247);
+   /* padding-top: 2rem; */
+   /* margin-left:20rem ; */
+position: absolute;
+top: 1100px;
 }
 .first-row, .second-row {
     display: flex;
