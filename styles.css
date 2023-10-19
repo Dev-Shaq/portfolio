@@ -27,11 +27,6 @@ height: 100%;
 #occupation span{  color: rgba(236, 236, 236, 0.822);}
 #occupation{
     color: white;
-}.headings{
-    /* display: flex; */
-    padding-top: 3rem;
-    margin-bottom: 3rem;
-    padding-left: 2rem ;
 }
 
 nav {display: flex;
@@ -71,8 +66,10 @@ nav div{
     font-size: 40px;
     /* width: 120px; */
     border: 0.3rem red solid;
-    margin-right: 93rem;
-    padding-left: 10px;
+    padding: 6rem 0 4rem 3rem ;
+    margin-left: 2rem;
+    margin-right: 90rem;
+    /* padding-left: 10px; */
 }
 .logo span{
     color: rgb(255, 0,250);
