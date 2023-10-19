@@ -12,6 +12,7 @@ body {
 height: 100%;
     width: 100%;
     background-color: #293136;
+    margin: 0 auto;
 }
 /* Designs for homepage */
 .home-page {
@@ -131,7 +132,7 @@ border: 10px #e74c3c solid;
     filter: brightness(3);
 }
 
-#media-icons .twitter:hover img ,{
+#media-icons .twitter:hover img {
     filter: brightness(3);
 }
 
