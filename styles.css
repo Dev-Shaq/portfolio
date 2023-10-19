@@ -104,12 +104,12 @@ font-size: 23px;
      width:400px ;
         height:auto;
         border-radius: 50%;
-        border: 10px rgb(255, 0,250) solid;
+        border: 5px rgb(255, 0,250) solid;
         position: absolute;
         top: 200px;
        right:350px ;
 }
-#hero img :hover{
+#hero img:hover{
 border: 10px #e74c3c solid;
 }
 #media-icons{
@@ -257,5 +257,9 @@ footer {
     /* padding: 10px 0; */
 }
 
-
+@media (max-width: 576px) {
+    body {
+      font-size: 16px;
+    }
+  }
 
