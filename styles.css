@@ -189,8 +189,7 @@ margin:6rem 0 6rem 6rem ;
 .project-img img {
     width: 70%;
     height: auto;
-    box-shadow: 2px 2px 4px black, 5px 5px 10px rgba(0, 0, 0, 0.5);
-    border:10px solid black;
+    border:5px solid #e74c3c ;
   }
  
 
