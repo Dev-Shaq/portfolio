@@ -203,7 +203,7 @@ margin:6rem 0 6rem 6rem ;
     background-color: #1d2225;
     color: rgba(236, 236, 236, 0.822);
     margin:0 4rem 4rem 4rem;
-    font-size: 23px;
+    font-size: 20px;
     padding: 4rem;
     border-radius: 3rem;
     letter-spacing: 2px;
@@ -220,19 +220,28 @@ margin:6rem 0 6rem 6rem ;
   /* styling for contact me page */
   .contact-me-container{
     background-color: #1d2225;
-}
-  .contact-me{
-    background-color: #e5e5e6;
-    color: #343a40;
-    /* margin: 6rem; */
-    margin-top: 5rem;
+    color: #c1cad3;
+    /* border: 2rem solid blue; */
+
+  }
+.contact-me, .media-icons, .media-icons a{
+    /* border: 2rem solid red; */
+   background-color: aliceblue;
+   margin: 4rem;
+    /* padding: 6rem;
+    margin-top:100rem;
+    border-radius: 3rem; */ */
 }
 
 
 .media-icons{
     display: flex;
 }
-
+.media-icons img{
+    width: 30%;
+    height: auto;
+   margin:0.4rem ;
+}
 
 header {
     /* background-color: #333; */
