@@ -18,17 +18,24 @@ height: 100%;
 .home-page {
     display: flex;
     color: rgba(236, 236, 236, 0.822);
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 96vw; */
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
+    /* margin-bottom: 500px; */
+    border: red 0.1rem solid;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 #occupation span{  color: rgba(236, 236, 236, 0.822);}
 #occupation{
     color: white;
+ 
 }
-
+#hero-text{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
 nav {display: flex;
 position: absolute;
 right:300px;
@@ -49,6 +56,7 @@ margin-top: 10px;
 }
 nav button:hover {
     color:#e74c3c;
+
 }
 nav div{
     margin-left: 20px; 
@@ -61,15 +69,16 @@ nav div{
 
 }
 .logo{
-padding-top:5rem ;
+padding-top:3rem ;
 margin-left: 2rem;
 margin-right: 88rem;
+margin-bottom: 3rem;
 }
 .logo h1{
     color: white;
     font-weight: 700;
     font-size: 40px;
-    border: 0.3rem #e74c3c solid;
+    /* border: 0.3rem #e74c3c solid; */
     /* padding: 2rem ; */
     padding-left: 2rem;
 }
@@ -78,11 +87,13 @@ margin-right: 88rem;
 }
 .logo h1:hover {
 color: #e74c3c;
-border:0.5rem solid rgb(255, 0,250) ;
+/* border:0.5rem solid rgb(255, 0,250) ; */
+/* transition: 0.2s; */
 }
 
 .logo h1:hover span {
   color: white;
+  /* transition: 0.2s; */
 }
 
 #hero-text  {
@@ -112,7 +123,7 @@ border: 10px #e74c3c solid;
 }
 #media-icons{
     position: absolute;
-    right: 0;
+    right: 2rem;
     bottom: 250px;
     }
     #media-icons img{
@@ -213,9 +224,37 @@ margin:6rem 0 6rem 6rem ;
   }
 
 
+  .hello-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+  }
 
+.hello{
+    margin-right: 34rem;
+    margin-bottom: 4rem;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
 
-
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    height: 150px; 
+}
   /* styling for contact me page */
   .contact-me-container{
     background-color: #1d2225;
@@ -225,7 +264,7 @@ margin:6rem 0 6rem 6rem ;
   }
 .contact-me, .media-icons, .media-icons a{
     /* border: 2rem solid red; */
-   background-color: aliceblue;
+   /* background-color: aliceblue; */
    margin: 4rem;
     /* padding: 6rem;
     margin-top:100rem;
@@ -242,40 +281,12 @@ margin:6rem 0 6rem 6rem ;
    margin:0.4rem ;
 }
 
-header {
-    /* background-color: #333; */
-    /* color: #fff; */
-    /* padding: 20px 0; */
+.contact-me-container ,{
+    background-color: #5d646b;
 }
-
-
-
-
-
-.cta-button {
-    /* display: inline-block; */
-    /* padding: 10px 20px; */
-    /* background-color: #333; */
-    /* color: #fff; */
-    /* text-decoration: none; */
-    /* border-radius: 5px; */
-    /* margin-top: 20px; */
-}
-
-#about, #portfolio, #contact {
-    /* padding: 40px 0; */
-    /* text-align: center; */
-}
-
-#portfolio h2 {
-    /* margin-top: 40px; */
-}
-
 footer {
-    /* background-color: #333; */
-    /* color: #fff; */
-    /* text-align: center; */
-    /* padding: 10px 0; */
+ margin-left: 25rem;
+ padding-bottom: 1rem;
 }
 
 @media (max-width: 576px) {
@@ -283,4 +294,17 @@ footer {
       font-size: 16px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
