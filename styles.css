@@ -27,6 +27,7 @@ height: 100%;
    margin-left: 2rem; 
     margin-right: 2rem;
     margin-top: 0;
+    border-radius: 1rem;
 }
 
 .logo{
@@ -81,7 +82,7 @@ height: 100%;
       padding-left: 100px;
       margin-top: 0;
       margin-bottom: 4rem;
-      margin-right: 6rem;
+      margin-right: 8rem;
     }
 
 
@@ -146,6 +147,9 @@ nav div{
     position: absolute;
     right: 2rem;
     bottom: 250px;
+    border: 5px rgb(75, 67, 67) solid;
+    border-radius: 2rem;
+    margin-right: 1.5rem;
     }
     #media-icons img{
         margin: 0.7rem;
@@ -159,17 +163,15 @@ nav div{
 
 .connect-button{
     position: absolute;
-bottom: 100px;
+bottom: 25px;
 left: 200px;
 }
 .connect-button button{
-    background-color: transparent;
     border: none;
-    background-color: rgb(255, 0,250);
-    background-color: rgb(201, 176, 201);
+    background-color: rgb(185, 177, 185);
     padding: 2rem 4rem;
     border-radius: 10px;
-    color: black;
+    color: rgb(39, 34, 34);
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
@@ -177,6 +179,7 @@ left: 200px;
 .connect-button button:hover {
     background-color: #e74c3c;
     color: #ffffff; 
+    transition: 0.4s;
 }
 
 
@@ -185,14 +188,15 @@ left: 200px;
 /* Styling for project page */
 .projects{
     background-color: #5d646b;
+    margin: 0 4rem;
+border-radius: 2rem;
     /* height:100vh; */
    /* width: 100vw; */
-    /* padding: 4rem; */
+    padding: 4rem 0;
 }
 .projects h1{
    color: rgb(247, 247, 247);
-   /* padding-top: 2rem; */
-   /* margin-left:20rem ; */
+   margin-left:20rem ;
 /* position: absolute; */
 /* top: 1100px; */
 }
