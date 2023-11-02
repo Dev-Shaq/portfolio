@@ -12,8 +12,11 @@ body {
 height: 100%;
     width: 100%;
     background-color: #293136;
-    margin: 0 auto;
 }
+
+
+
+
 /* Styling for homepage */
 .home-page {
     display: flex;
@@ -78,7 +81,7 @@ height: 100%;
 
 #hero{
     width: 50%;
-      border: 0.7rem rgb(39, 38, 38) solid; 
+      border: 4px rgb(39, 38, 38) solid; 
       padding-left: 100px;
       margin-top: 0;
       margin-bottom: 4rem;
@@ -91,9 +94,7 @@ height: 100%;
            height:auto;
            border-radius: 50%;
            border: 2px rgb(255, 0,250) solid;
-           /* position: absolute; */
-           /* top: 200px; */
-          /* right:350px ; */
+margin: 2rem 0 1rem 0;
    }
 
    #hero img:hover{
@@ -171,7 +172,7 @@ nav div{
 
 .connect-button{
     position: absolute;
-bottom: 25px;
+bottom: 100px;
 left: 200px;
 }
 .connect-button button{
@@ -179,7 +180,7 @@ left: 200px;
     background-color: rgb(185, 177, 185);
     padding: 2rem 4rem;
     border-radius: 10px;
-    color: rgb(39, 34, 34);
+    color: rgb(58, 51, 51);
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
@@ -195,18 +196,16 @@ left: 200px;
 
 /* Styling for project page */
 .projects{
-    background-color: #5d646b;
+    background-color: #4e5358;
     margin: 0 4rem;
+    margin-top: 2rem;
 border-radius: 2rem;
-    /* height:100vh; */
-   /* width: 100vw; */
-    padding: 4rem 0;
+padding-top: 3rem;
 }
 .projects h1{
-   color: rgb(247, 247, 247);
-   margin-left:20rem ;
-/* position: absolute; */
-/* top: 1100px; */
+   color: rgb(190, 185, 185);
+   margin-left:33rem ;
+margin-bottom: 3rem;
 }
 .project-img{
     display: grid;
@@ -215,16 +214,22 @@ border-radius: 2rem;
     /* gap: 50px; */
 justify-content: center;
 align-items: center;
-margin:6rem 0 6rem 6rem ;
+/* margin:6rem 0 6rem 6rem ; */
+padding-left: 4rem;
 }
 .project-img img {
-    width: 70%;
-    height: auto;
-    border:5px solid #e74c3c ;
-  }
+    border:3px solid  #293136;
+    border-radius: 1.3rem;
+    height: 350px;
+    width: 350px;
  
+  }
 
-
+.sign-up , .age-calculator, .single-price,  .social-proof, .stat-preview, .huddle{
+    text-align: center;
+    color: rgb(190, 185, 185);
+       margin-bottom: 40px;
+}
 
 
 
@@ -232,7 +237,7 @@ margin:6rem 0 6rem 6rem ;
   .about-page{
     background-color: #1d2225;
     color: rgba(236, 236, 236, 0.822);
-    margin:0 4rem 4rem 4rem;
+    margin:3rem 4rem 4rem 4rem;
     font-size: 20px;
     padding: 4rem;
     border-radius: 3rem;
@@ -244,24 +249,7 @@ margin:6rem 0 6rem 6rem ;
   }
 
 
-  .hello-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4rem;
-  }
 
-.hello{
-    margin-right: 34rem;
-    margin-bottom: 4rem;
-}
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
 
 input[type="text"],
 input[type="email"],
@@ -275,38 +263,81 @@ textarea {
 textarea {
     height: 150px; 
 }
-  /* styling for contact me page */
-  .contact-me-container{
-    background-color: #1d2225;
-    color: #c1cad3;
-    /* border: 2rem solid blue; */
 
-  }
-.contact-me, .media-icons, .media-icons a{
-    /* border: 2rem solid red; */
-   /* background-color: aliceblue; */
-   margin: 4rem;
-    /* padding: 6rem;
-    margin-top:100rem;
-    border-radius: 3rem; */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* styling for contact me page */
+
+
+  .contact-me{
+    border: 1px rgb(141, 123, 123) solid;
+    margin: 2rem;
+    color: rgb(190, 185, 185);
 }
 
+.contact-me h1{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    margin-bottom: 4rem;
+}
+
+
+.contact-me p{
+    margin-top: 2rem;
+}
+  .hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .hello-text{
+    margin-right: 25rem;
+}
+
+
+form {
+    padding: 20px;
+    border: 1px solid #686464;
+    border-radius: 10px;
+}
+
+
+.media-icons a{margin-right: 2rem;}
 
 .media-icons{
     display: flex;
+justify-content: center;
+align-items: center;
+margin: 8rem 0 2rem 0;
 }
 .media-icons img{
-    width: 30%;
-    height: auto;
-   margin:0.4rem ;
+   height: 30px;
 }
 
-.contact-me-container ,{
-    background-color: #5d646b;
-}
+
 footer {
- margin-left: 25rem;
- padding-bottom: 1rem;
+ margin-left: 30rem;
+ padding-bottom: 2rem;
+ color: aqua;
 }
 
 @media (max-width: 576px) {

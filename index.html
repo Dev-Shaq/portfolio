@@ -9,6 +9,18 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const aboutBtn = document.getElementById("about-btn");
+        const aboutPage = document.querySelector(".about-page");
+
+        aboutBtn.addEventListener("click", () => {
+          aboutPage.scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <!-- General container -->
@@ -17,7 +29,7 @@
       <div class="logo">
         <h1>Dev. <span> Shaq </span></h1>
         <nav>
-          <div id="about-btn"><button>About</button></div>
+          <button id="about-btn" onclick="()">About</button>
           <div class="projects-btn"><button>Projects</button></div>
           <div class="contact-btn"><button>Contact Me</button></div>
         </nav>
@@ -77,36 +89,53 @@
       <div class="projects">
         <h1>FEATURED PROJECTS</h1>
         <div class="project-img">
-          <a
-            href="https://dev-shaq.github.io/sign-up-form/
-  "
-            ><img src="images/signupForm.PNG" alt="signup form"
-          /></a>
-          <a
-            href="https://github.com/Dev-Shaq/age-calculator-website
-  "
-            ><img src="images/ageCalculator.PNG" alt="Age Calculator"
-          /></a>
-          <a
-            href="https://dev-shaq.github.io/single-price-grid-component-master/
-  "
-            ><img src="images/single-price-card.PNG" alt="single price card"
-          /></a>
-          <a
-            href="https://dev-shaq.github.io/social-proof-section/
-  "
-            ><img src="images/social-proof-card.PNG" alt="social proof card"
-          /></a>
-          <a
-            href="https://dev-shaq.github.io/-Stats-Preview-Card/
-  "
-            ><img src="images/Stats-Preview-Card.PNG" alt="Stats Preview Card"
-          /></a>
-          <a
-            href="https://dev-shaq.github.io/Huuddle/
-  "
-            ><img src="images/huddle.PNG" alt="huddle"
-          /></a>
+<div class="sign-up">          <a
+  href="https://dev-shaq.github.io/sign-up-form/
+"
+  ><img src="images/signupForm.PNG" alt="signup form"
+/></a><h2>Sign Up Form</h2></div>
+      <div class="age-calculator">    <a
+        href="https://github.com/Dev-Shaq/age-calculator-website
+"
+        ><img src="images/ageCalculator.PNG" alt="Age Calculator"
+      /></a>
+      <h2>Age Calculator</h2></div>
+ <div class="single-price">
+  <a
+  href="https://dev-shaq.github.io/single-price-grid-component-master/
+"
+  ><img src="images/single-price-card.PNG" alt="single price card"
+/></a>
+<h2>Single Price Component</h2>
+ </div>
+<div class="social-proof">
+  <a
+  href="https://dev-shaq.github.io/social-proof-section/
+"
+  ><img src="images/social-proof-card.PNG" alt="social proof card"
+/></a>
+<h2>
+  Social Proof Card
+</h2>
+</div>
+          <div class="stat-preview">
+            <a
+              href="https://dev-shaq.github.io/-Stats-Preview-Card/
+"
+              ><img
+                src="images/Stats-Preview-Card.PNG"
+                alt="Stats Preview Card"
+            /></a>
+            <h2>Stats Preview card</h2>
+          </div>
+          <div class="huddle">
+            <a
+              href="https://dev-shaq.github.io/Huuddle/
+"
+              ><img src="images/huddle.PNG" alt="huddle"
+            /></a>
+            <h2>Huddle</h2>
+          </div>
         </div>
       </div>
 
@@ -155,10 +184,11 @@
         </p>
       </div>
       <!-- container for contact me -->
-      <div class="contact-me-container">
-        <div class="hello-form">
-          <div class="hello">
-            <h1>SAY HELLO</h1>
+      <div class="contact-me">
+        <h1>CONNECT WITH ME</h1>
+        <div class="hello">
+          <div class="hello-text">
+            <h2>SAY HELLO</h2>
             <p>+2348124619152</p>
             <p>nwezecharles27@gmail.com</p>
           </div>
@@ -182,9 +212,7 @@
             </form>
           </div>
         </div>
-
-        <div class="connect-me">
-          <h1>CONNECT WITH ME</h1>
+    
           <div class="media-icons">
             <div class="whatsapp">
               <a href="https://wa.me/+2348124619152">
@@ -212,12 +240,12 @@
               </a>
             </div>
           </div>
-        </div>
       </div>
       <!-- container for footer -->
       <footer>
-        <p>Designed by Nweze Charles (AKA Dev. Shaq)&copy; 2023</p>
+        <p>Designed by Nweze Charles (AKA Dev. Shaq) &copy; 2023</p>
       </footer>
     </div>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
