@@ -9,18 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const aboutBtn = document.getElementById("about-btn");
-        const aboutPage = document.querySelector(".about-page");
-
-        aboutBtn.addEventListener("click", () => {
-          aboutPage.scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
-    </script>
+   
   </head>
   <body>
     <!-- General container -->
@@ -30,8 +19,8 @@
         <h1>Dev. <span> Shaq </span></h1>
         <nav>
           <button id="about-btn" onclick="()">About</button>
-          <div class="projects-btn"><button>Projects</button></div>
-          <div class="contact-btn"><button>Contact Me</button></div>
+          <div id="projects-btn" onclick="()"><button>Projects</button></div>
+          <div id="contact-btn" onclick="()"><button>Contact Me</button></div>
         </nav>
       </div>
       <!-- container for homepage -->
@@ -86,7 +75,7 @@
       </div>
 
       <!-- container for projects -->
-      <div class="projects">
+      <div class="projects-page">
         <h1>FEATURED PROJECTS</h1>
         <div class="project-img">
 <div class="sign-up">          <a
@@ -184,7 +173,7 @@
         </p>
       </div>
       <!-- container for contact me -->
-      <div class="contact-me">
+      <div class="contact-page">
         <h1>CONNECT WITH ME</h1>
         <div class="hello">
           <div class="hello-text">
@@ -246,6 +235,6 @@
         <p>Designed by Nweze Charles (AKA Dev. Shaq) &copy; 2023</p>
       </footer>
     </div>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
   </body>
 </html>

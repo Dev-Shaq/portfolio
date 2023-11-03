@@ -1,51 +1,37 @@
-// const aboutBtn = document.getElementById('about-btn');
-// const aboutPage = document.querySelector('.about-page');
 
-// aboutBtn.addEventListener('click', () => {
-//   aboutPage.scrollIntoView({
-//     behavior: 'smooth',
-//   });
-// });
+document.addEventListener("DOMContentLoaded", function () {
+  const aboutBtn = document.getElementById("about-btn");
+  const aboutPage = document.querySelector(".about-page");
 
-
-
-
-
-// const aboutBtn = document.getElementById('about-btn');
-// const aboutSection = document.querySelector('.about-page');
-
-// aboutBtn.addEventListener('click', () => {
-//   aboutSection.scrollIntoView({
-//     behavior: 'smooth',
-//   });
-// });
+  aboutBtn.addEventListener("click", () => {
+    aboutPage.scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const projectBtn = document.getElementById("projects-btn");
+    const projectPage = document.querySelector(".projects-page");
+  
+    projectBtn.addEventListener("click", () => {
+      projectPage.scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
 
 
 
-
-// const aboutBtn = document.getElementById('about-btn');
-// const aboutSection = document.querySelector('.about-page');
-
-// aboutBtn.addEventListener('click', () => {
-//   // Prevent the default behavior of the link. 
-//    event.preventDefault();
-
-//   // Scroll to the "about-page" with a smooth animation.
-//   window.scrollTo({
-//     top: aboutSection.offsetTop,
-//     behavior: 'smooth',
-//   });
-// });
-
-
-
-
-
-
-// document.getElementById("about-btn").addEventListener("click", function() {
-//     // Scroll to the "about-section" when the button is clicked
-//     document.getElementsByClassName("about-page").scrollIntoView({ behavior: "smooth" });
-// });
+  document.addEventListener("DOMContentLoaded", function () {
+    const contactBtn = document.getElementById("contact-btn");
+    const contactPage = document.querySelector(".contact-page");
+  
+    contactBtn.addEventListener("click", () => {
+      contactPage.scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
